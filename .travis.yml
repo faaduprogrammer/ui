@@ -75,7 +75,7 @@ script:
     - chmod 777 coverage
     - cp behat-travis.yml behat.yml
     - cp tools/coverage.php demos/coverage.php
-    - vendor/bin/behat || exit -1
+  #  - vendor/bin/behat || exit -1
 
     - if [[ ${TRAVIS_PHP_VERSION:0:3} != "7.4" ]]; then NC="--no-coverage"; fi
     - ./vendor/phpunit/phpunit/phpunit $NC # can not be easily removed in favor of GitHub Actions as we need to send a full/merged coverage report
