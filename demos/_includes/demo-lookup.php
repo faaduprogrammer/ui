@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Setup file - do not test.
  * Lookup that can not saved data.

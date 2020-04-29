@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 class Demo extends \atk4\ui\Columns
 {
     public $left;

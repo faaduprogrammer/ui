@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 require_once __DIR__ . '/../atk-init.php';
 
 // Next line produces exception, which Agile UI will catch and display nicely.

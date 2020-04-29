@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 require_once __DIR__ . '/../atk-init.php';
 
 // This demo shows a local impact of a sticky parameters.

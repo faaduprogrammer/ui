@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 chdir('..');
 include_once '../vendor/autoload.php';
 

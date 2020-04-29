@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 require_once __DIR__ . '/../atk-init.php';
 
 class ModelColor extends \atk4\data\Model

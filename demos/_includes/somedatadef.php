@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 if (!class_exists('SomeData')) {
     class SomeData extends \atk4\data\Model
     {

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 class PromotionText extends \atk4\ui\View
 {
     public function init(): void

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // A very basic file that sets up Agile Data to be used in some demonstrations
 try {
     if (file_exists(__DIR__ . '/db.php')) {
